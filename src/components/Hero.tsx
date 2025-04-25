@@ -1,7 +1,7 @@
 
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
-import { Terminal, Robot, School } from "lucide-react";
+import { Terminal, Bot, School } from "lucide-react";
 
 export const Hero = () => {
   const { t } = useLanguage();
@@ -15,7 +15,7 @@ export const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex justify-center gap-6 mb-8">
             <Terminal className="w-12 h-12 text-cyberturquoise animate-pulse" />
-            <Robot className="w-12 h-12 text-cyberblue animate-pulse delay-100" />
+            <Bot className="w-12 h-12 text-cyberblue animate-pulse delay-100" />
             <School className="w-12 h-12 text-cyberpurple animate-pulse delay-200" />
           </div>
           

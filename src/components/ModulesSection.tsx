@@ -9,7 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Robot, Terminal, Gamepad, BookText, MonitorPlay, Image, School } from "lucide-react";
+import { Code, Bot, Terminal, Gamepad, BookText, MonitorPlay, Image, School } from "lucide-react";
 
 const moduleCategories = [
   {
@@ -24,7 +24,7 @@ const moduleCategories = [
   },
   {
     title: { en: "Robotics & Hardware", am: "Ռոբոտաշինություն և սարքավորումներ" },
-    icon: <Robot className="w-6 h-6 text-cyberturquoise" />,
+    icon: <Bot className="w-6 h-6 text-cyberturquoise" />,
     modules: ["Robotics Bases", "PC Building", "Robotics based on arduino", "IoT", "TinkerCad"]
   },
   {
