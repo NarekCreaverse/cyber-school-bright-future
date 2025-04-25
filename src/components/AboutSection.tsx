@@ -2,7 +2,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 
 export const AboutSection = () => {
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
 
   return (
     <section id="about" className="py-24 bg-gradient-to-br from-cybernavy via-cyberpurple/20 to-cyberblue/20">

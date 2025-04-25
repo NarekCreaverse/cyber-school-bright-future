@@ -1,7 +1,7 @@
 
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
-import { mail, phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 
 export const ContactSection = () => {
   const { t } = useLanguage();
@@ -18,11 +18,11 @@ export const ContactSection = () => {
           </p>
           <div className="flex flex-col md:flex-row justify-center gap-8">
             <a href="mailto:info@creaverse.am" className="flex items-center justify-center gap-2 text-white hover:text-cyberturquoise transition-colors">
-              <mail className="w-5 h-5" />
+              <Mail className="w-5 h-5" />
               info@creaverse.am
             </a>
             <a href="tel:+37411223344" className="flex items-center justify-center gap-2 text-white hover:text-cyberturquoise transition-colors">
-              <phone className="w-5 h-5" />
+              <Phone className="w-5 h-5" />
               +374 11 22 33 44
             </a>
           </div>
