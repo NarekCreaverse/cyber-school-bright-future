@@ -1,3 +1,4 @@
+
 import React, { createContext, useContext, useState } from 'react';
 
 type Language = 'en' | 'am';
@@ -13,6 +14,7 @@ const translations = {
     "nav.home": "Home",
     "nav.courses": "Courses",
     "nav.about": "About",
+    "nav.certification": "Certification",
     "nav.contact": "Contact",
     "hero.title": "Welcome to Creaverse",
     "hero.subtitle": "Empowering the Next Generation of Tech Leaders",
@@ -28,6 +30,7 @@ const translations = {
     "nav.home": "Գլխավոր",
     "nav.courses": "Դասընթացներ",
     "nav.about": "Մեր մասին",
+    "nav.certification": "Հավաստագրում",
     "nav.contact": "Կապ",
     "hero.title": "Բարի գալուստ Creaverse",
     "hero.subtitle": "Ձևավորում ենք տեխնոլոգիական առաջնորդների նոր սերունդ",
