@@ -4,6 +4,8 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { ModulesSection } from "@/components/ModulesSection";
 import { VideoSection } from "@/components/VideoSection";
+import { AboutSection } from "@/components/AboutSection";
+import { ContactSection } from "@/components/ContactSection";
 
 const Index = () => {
   return (
@@ -12,7 +14,9 @@ const Index = () => {
         <Navbar />
         <Hero />
         <ModulesSection />
+        <AboutSection />
         <VideoSection />
+        <ContactSection />
       </div>
     </LanguageProvider>
   );

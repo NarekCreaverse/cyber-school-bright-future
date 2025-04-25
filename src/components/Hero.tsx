@@ -35,11 +35,10 @@ export const Hero = () => {
               {t('nav.courses')}
             </Button>
             <Button 
-              variant="outline" 
               size="lg"
-              className="border-white text-white hover:bg-white/10 min-w-[200px]"
+              className="bg-gradient-to-r from-[#0bcfce] to-[#37a1da] hover:opacity-90 text-white min-w-[200px]"
             >
-              {t('nav.contact')}
+              {t('hero.registerFree')}
             </Button>
           </div>
         </div>

@@ -1,4 +1,3 @@
-
 import React, { createContext, useContext, useState } from 'react';
 
 type Language = 'en' | 'am';
@@ -15,32 +14,30 @@ const translations = {
     "nav.courses": "Courses",
     "nav.about": "About",
     "nav.contact": "Contact",
-    "hero.title": "Welcome to Cyber School",
+    "hero.title": "Welcome to Creaverse",
     "hero.subtitle": "Empowering the Next Generation of Tech Leaders",
+    "hero.registerFree": "Register for Free Lesson",
     "modules.title": "Our Learning Modules",
     "modules.subtitle": "Explore our comprehensive curriculum",
-    "video.title": "Featured Videos",
-    "video.comingSoon": "Video content coming soon",
-    "benefits.title": "Why Choose Us",
-    "benefits.item1": "Expert Teachers",
-    "benefits.item2": "Interactive Learning",
-    "benefits.item3": "Modern Curriculum",
+    "about.title": "About Us",
+    "about.description": "We are dedicated to providing high-quality IT education for children",
+    "contact.title": "Contact Us",
+    "contact.description": "Get in touch with us to learn more about our programs",
   },
   am: {
     "nav.home": "Գլխավոր",
     "nav.courses": "Դասընթացներ",
     "nav.about": "Մեր մասին",
     "nav.contact": "Կապ",
-    "hero.title": "Բարի գալուստ Կիբեռ դպրոց",
+    "hero.title": "Բարի գալուստ Creaverse",
     "hero.subtitle": "Ձևավորում ենք տեխնոլոգիական առաջնորդների նոր սերունդ",
+    "hero.registerFree": "Գրանցվել անվճար դասի",
     "modules.title": "Մեր ուսուցման մոդուլները",
     "modules.subtitle": "Բացահայտեք մեր համապարփակ ուսումնական ծրագիրը",
-    "video.title": "Տեսանյութեր",
-    "video.comingSoon": "Տեսանյութերը շուտով",
-    "benefits.title": "Ինչու՞ ընտրել մեզ",
-    "benefits.item1": "Փորձառու ուսուցիչներ",
-    "benefits.item2": "Ինտերակտիվ ուսուցում",
-    "benefits.item3": "Ժամանակակից ծրագիր",
+    "about.title": "Մեր մասին",
+    "about.description": "Մենք նվիրված ենք երեխաներին բարձրորակ IT կրթություն տրամադրելուն",
+    "contact.title": "Կապ մեզ հետ",
+    "contact.description": "Կապվեք մեզ հետ մեր ծրագրերի մասին ավելին իմանալու համար",
   }
 };
 
