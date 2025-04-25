@@ -17,6 +17,15 @@ export const CertificationSection = () => {
               ? 'Upon completion of each semester, students receive official Creaverse certificates recognizing their achievements'
               : 'Յուրաքանչյուր կիսամյակի ավարտին ուսանողները ստանում են Creaverse-ի պաշտոնական հավաստագրեր՝ ճանաչելով իրենց ձեռքբերումները'}
           </p>
+
+          <div className="relative w-full max-w-2xl mx-auto mb-12 group">
+            <img 
+              src="/lovable-uploads/4e13bd3c-1eb7-4305-83ea-c8321845070a.png"
+              alt="Creaverse Certificate" 
+              className="w-full h-auto rounded-lg shadow-xl animate-fade-in hover:scale-105 transition-transform duration-300"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>
+          </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 transform hover:scale-105 transition-all duration-300">

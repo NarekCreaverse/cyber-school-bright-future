@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -22,9 +21,9 @@ export const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img 
-              src="/logo.png" 
+              src="/lovable-uploads/8568b6c8-18b8-4814-9555-6a5f3b0ae9f8.png"
               alt="Creaverse Logo" 
-              className="h-10 w-auto animate-fade-in"
+              className="h-12 w-auto animate-fade-in hover:scale-105 transition-transform duration-300"
             />
             <span className="text-2xl font-bold text-white hover:text-cyberturquoise transition-colors duration-300">
               Creaverse
@@ -55,7 +54,6 @@ export const Navbar = () => {
           </Button>
         </div>
 
-        {/* Mobile menu */}
         {isMenuOpen && (
           <div className="md:hidden py-4 space-y-4 animate-fade-in">
             <button onClick={() => scrollToSection('home')} className="block w-full text-left text-white hover:text-cyberturquoise transition-colors duration-300">{t('nav.home')}</button>
