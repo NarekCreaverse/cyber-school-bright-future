@@ -25,6 +25,18 @@ const translations = {
     "about.description": "We are dedicated to providing high-quality IT education for children",
     "contact.title": "Contact Us",
     "contact.description": "Get in touch with us to learn more about our programs",
+    "video.title": "Our Educational Videos",
+    "video.comingSoon": "Educational videos coming soon",
+    "certification.title": "Our Certification",
+    "certification.description": "Upon completion of each semester, students receive official Creaverse certificates recognizing their achievements",
+    "certification.officialCertificate": "Official Certificate",
+    "certification.officialCertificateDesc": "Recognized certification of completion",
+    "certification.skillAssessment": "Skill Assessment",
+    "certification.skillAssessmentDesc": "Detailed evaluation of acquired skills",
+    "certification.achievementRecognition": "Achievement Recognition",
+    "certification.achievementRecognitionDesc": "Celebration of student accomplishments",
+    "seo.title": "Creaverse - IT Education for Kids in Yerevan, Armenia",
+    "seo.description": "Specialized IT school for children in Yerevan, Armenia offering coding, robotics, and digital skills education",
   },
   am: {
     "nav.home": "Գլխավոր",
@@ -41,13 +53,25 @@ const translations = {
     "about.description": "Մենք նվիրված ենք երեխաներին բարձրորակ IT կրթություն տրամադրելուն",
     "contact.title": "Կապ մեզ հետ",
     "contact.description": "Կապվեք մեզ հետ մեր ծրագրերի մասին ավելին իմանալու համար",
+    "video.title": "Մեր ուսուցողական տեսանյութերը",
+    "video.comingSoon": "Ուսուցողական տեսանյութերը շուտով կհասանելի լինեն",
+    "certification.title": "Մեր հավաստագրերը",
+    "certification.description": "Յուրաքանչյուր կիսամյակի ավարտին ուսանողները ստանում են Creaverse-ի պաշտոնական հավաստագրեր՝ ճանաչելով իրենց ձեռքբերումները",
+    "certification.officialCertificate": "Պաշտոնական հավաստագիր",
+    "certification.officialCertificateDesc": "Ավարտի ճանաչված հավաստագիր",
+    "certification.skillAssessment": "Հմտությունների գնահատում",
+    "certification.skillAssessmentDesc": "Ձեռք բերված հմտությունների մանրամասն գնահատում",
+    "certification.achievementRecognition": "Ձեռքբերումների ճանաչում",
+    "certification.achievementRecognitionDesc": "Ուսանողների ձեռքբերումների տոնակատարություն",
+    "seo.title": "Creaverse - IT կրթություն երեխաների համար Երևանում, Հայաստան",
+    "seo.description": "Մասնագիտացված IT դպրոց երեխաների համար Երևանում, Հայաստան՝ առաջարկելով ծրագրավորման, ռոբոտաշինության և թվային հմտությունների ուսուցում",
   }
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguage] = useState<Language>('am');
 
   const t = (key: string) => {
     return translations[language][key as keyof typeof translations.en] || key;

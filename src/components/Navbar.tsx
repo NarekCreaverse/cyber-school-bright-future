@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -19,16 +20,9 @@ export const Navbar = () => {
     <nav className="fixed w-full bg-cybernavy/95 backdrop-blur-sm z-50">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <img 
-              src="/lovable-uploads/8568b6c8-18b8-4814-9555-6a5f3b0ae9f8.png"
-              alt="Creaverse Logo" 
-              className="h-12 w-auto animate-fade-in hover:scale-105 transition-transform duration-300"
-            />
-            <span className="text-2xl font-bold text-white hover:text-cyberturquoise transition-colors duration-300">
-              Creaverse
-            </span>
-          </div>
+          <span className="text-2xl font-bold text-white hover:text-cyberturquoise transition-colors duration-300">
+            Creaverse
+          </span>
           
           <button
             className="md:hidden text-white hover:text-cyberturquoise transition-colors duration-300"
