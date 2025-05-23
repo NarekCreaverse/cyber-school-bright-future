@@ -39,11 +39,15 @@ const moduleCategories = [
   },
 ];
 
-export const ModulesSection = () => {
+interface ModulesSectionProps {
+  id?: string;
+}
+
+export const ModulesSection = ({ id }: ModulesSectionProps) => {
   const { t, language } = useLanguage();
 
   return (
-    <section className="py-24 bg-gradient-to-br from-cybernavy via-cyberpurple/20 to-cyberblue/20">
+    <section id={id || 'modules'} className="py-24 bg-gradient-to-br from-cybernavy via-cyberpurple/20 to-cyberblue/20">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">

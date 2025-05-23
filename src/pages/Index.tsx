@@ -18,7 +18,7 @@ const Index = () => {
           <SEO />
           <Navbar />
           <Hero />
-          <ModulesSection />
+          <ModulesSection id="courses" />
           <AboutSection />
           <VideoSection />
           <CertificationSection />
