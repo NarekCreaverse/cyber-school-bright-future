@@ -26,7 +26,7 @@ export const Hero = () => {
     <div id="home" className="relative min-h-[90vh] bg-gradient-to-br from-cyberpurple/30 via-cybernavy to-black overflow-hidden">
       {/* Enhanced animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        {Array.from({ length: 30 }).map((_, i) => (
+        {Array.from({ length: 50 }).map((_, i) => (
           <div 
             key={i}
             className="absolute rounded-full bg-gradient-to-r from-cyberpurple/20 to-cyberturquoise/20"
@@ -50,7 +50,7 @@ export const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left content - Text */}
           <div className={`space-y-6 transition-all duration-1000 ${animateItems ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
-            <div className="h-1.5 w-24 bg-gradient-to-r from-cyberturquoise to-cyberpurple rounded-full mb-6"></div>
+            <div className="h-1.5 w-24 bg-gradient-to-r from-cyberturquoise to-cyberpurple rounded-full mb-6 animate-pulse"></div>
             
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-cyberturquoise to-cyberpurple leading-tight animate-pulse">
               {t('hero.title')}
