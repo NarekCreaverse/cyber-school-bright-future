@@ -4,89 +4,132 @@
 
 @layer base {
   :root {
+    /* Tech Innovation Color Palette - Light Mode */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 240 10% 3.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 240 10% 3.9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 240 10% 3.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Electric Cyan */
+    --primary: 191 94% 42%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 191 94% 65%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Neon Blue */
+    --secondary: 212 87% 54%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Accent - Vibrant Purple */
+    --accent: 262 74% 62%;
+    --accent-foreground: 0 0% 100%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Tech Navy - Deep background */
+    --tech-navy: 240 100% 3%;
+    --tech-navy-light: 240 43% 11%;
+
+    /* Neural Gray - Sophisticated neutrals */
+    --neural-gray: 220 9% 46%;
+    --neural-light: 210 20% 94%;
+
+    /* Quantum Orange - Energy accent */
+    --quantum-orange: 31 81% 56%;
+    --quantum-orange-light: 31 81% 75%;
+
+    --muted: 210 20% 94%;
+    --muted-foreground: 220 9% 46%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 191 94% 42%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-cyber: linear-gradient(135deg, hsl(191 94% 42%), hsl(262 74% 62%));
+    --gradient-neural: linear-gradient(135deg, hsl(240 100% 3%), hsl(240 43% 11%));
+    --gradient-quantum: linear-gradient(135deg, hsl(212 87% 54%), hsl(31 81% 56%));
+
+    /* Shadows and Effects */
+    --shadow-cyber: 0 25px 50px -12px hsl(191 94% 42% / 0.25);
+    --shadow-purple: 0 25px 50px -12px hsl(262 74% 62% / 0.25);
+    --glow-cyber: 0 0 50px hsl(191 94% 42% / 0.3);
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
+    --sidebar-primary: 191 94% 42%;
     --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
+    --sidebar-accent: 210 20% 94%;
+    --sidebar-accent-foreground: 240 10% 3.9%;
     --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 191 94% 42%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Tech Innovation Color Palette - Dark Mode */
+    --background: 240 100% 3%;
+    --foreground: 0 0% 98%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 240 43% 11%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 240 43% 11%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    /* Enhanced contrast for dark mode */
+    --primary: 191 94% 55%;
+    --primary-foreground: 240 100% 3%;
+    --primary-glow: 191 94% 75%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 212 87% 64%;
+    --secondary-foreground: 240 100% 3%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 262 74% 72%;
+    --accent-foreground: 240 100% 3%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --tech-navy: 240 100% 3%;
+    --tech-navy-light: 240 43% 15%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --neural-gray: 220 9% 65%;
+    --neural-light: 240 10% 15%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --quantum-orange: 31 81% 66%;
+    --quantum-orange-light: 31 81% 85%;
+
+    --muted: 240 10% 15%;
+    --muted-foreground: 220 9% 65%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 10% 15%;
+    --input: 240 10% 15%;
+    --ring: 191 94% 55%;
+
+    /* Enhanced dark mode gradients */
+    --gradient-cyber: linear-gradient(135deg, hsl(191 94% 55%), hsl(262 74% 72%));
+    --gradient-neural: linear-gradient(135deg, hsl(240 100% 3%), hsl(240 43% 15%));
+    --gradient-quantum: linear-gradient(135deg, hsl(212 87% 64%), hsl(31 81% 66%));
+
+    /* Enhanced dark mode shadows */
+    --shadow-cyber: 0 25px 50px -12px hsl(191 94% 55% / 0.35);
+    --shadow-purple: 0 25px 50px -12px hsl(262 74% 72% / 0.35);
+    --glow-cyber: 0 0 60px hsl(191 94% 55% / 0.4);
+
+    --sidebar-background: 240 43% 11%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 191 94% 55%;
+    --sidebar-primary-foreground: 240 100% 3%;
+    --sidebar-accent: 240 10% 15%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 10% 15%;
+    --sidebar-ring: 191 94% 55%;
   }
 }
 
