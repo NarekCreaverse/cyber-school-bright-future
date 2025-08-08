@@ -4,9 +4,9 @@
 
 @layer base {
   :root {
-    /* Tech Innovation Color Palette - Light Mode */
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    /* Light, clean background */
+    --background: 248 250 252;
+    --foreground: 30 41 59;
 
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
@@ -27,13 +27,13 @@
     --accent: 262 74% 62%;
     --accent-foreground: 0 0% 100%;
 
-    /* Tech Navy - Deep background */
-    --tech-navy: 240 100% 3%;
-    --tech-navy-light: 240 43% 11%;
+    /* Tech Navy - Lighter for backgrounds */
+    --tech-navy: 240 30% 15%;
+    --tech-navy-light: 240 25% 25%;
 
-    /* Neural Gray - Sophisticated neutrals */
+    /* Neural Gray - Lighter, more accessible */
     --neural-gray: 220 9% 46%;
-    --neural-light: 210 20% 94%;
+    --neural-light: 220 13% 95%;
 
     /* Quantum Orange - Energy accent */
     --quantum-orange: 31 81% 56%;
