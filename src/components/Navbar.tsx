@@ -20,14 +20,9 @@ export const Navbar = () => {
     <nav className="fixed w-full bg-background/95 backdrop-blur-sm z-50 border-b border-border">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <img 
-              src="/lovable-uploads/412a2633-2663-449a-968c-4c44fa35da4a.png" 
-              alt="Creaverse Cyber School Logo" 
-              className="h-8 w-auto"
-            />
-            <span className="text-xl font-bold text-foreground hover:text-primary transition-colors duration-300">
-              Creaverse
+          <div className="flex items-center">
+            <span className="text-xl font-bold text-foreground">
+              Creaverse Cyber School
             </span>
           </div>
           
@@ -46,13 +41,23 @@ export const Navbar = () => {
             <button onClick={() => scrollToSection('contact')} className="text-foreground hover:text-primary transition-colors duration-300">{t('nav.contact')}</button>
           </div>
 
-          <Button
-            onClick={() => setLanguage(language === 'en' ? 'am' : 'en')}
-            variant="outline"
-            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
-          >
-            {language === 'en' ? 'հայերեն' : 'English'}
-          </Button>
+          <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2">
+              <img 
+                src="/lovable-uploads/412a2633-2663-449a-968c-4c44fa35da4a.png" 
+                alt="Creaverse Logo" 
+                className="h-8 w-8 rounded-full border-2 border-muted"
+              />
+              <span className="text-sm font-medium text-foreground">Creaverse</span>
+            </div>
+            <Button
+              onClick={() => setLanguage(language === 'en' ? 'am' : 'en')}
+              variant="outline"
+              className="border-muted text-foreground hover:bg-muted transition-colors duration-300"
+            >
+              {language === 'en' ? 'հայերեն' : 'English'}
+            </Button>
+          </div>
         </div>
 
         {isMenuOpen && (

@@ -14,7 +14,7 @@ const Index = () => {
   return (
     <HelmetProvider>
       <LanguageProvider>
-        <div className="min-h-screen bg-cybernavy">
+        <div className="min-h-screen bg-background">
           <SEO />
           <Navbar />
           <Hero />
