@@ -32,7 +32,7 @@ export default {
         cyberpurple: "hsl(262 74% 62%)",
         cybernavy: "hsl(240 100% 3%)",
         
-        /* Tech Innovation Semantic Colors */
+        /* Warm Professional Semantic Colors */
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -63,10 +63,10 @@ export default {
           foreground: "hsl(var(--popover-foreground))",
         },
         
-        /* Tech Innovation Extended Palette */
-        "tech-navy": {
-          DEFAULT: "hsl(var(--tech-navy))",
-          light: "hsl(var(--tech-navy-light))",
+        /* Warm Professional Extended Palette */
+        "warm-gray": {
+          DEFAULT: "hsl(var(--warm-gray))",
+          dark: "hsl(var(--warm-gray-dark))",
         },
         "neural-gray": {
           DEFAULT: "hsl(var(--neural-gray))",

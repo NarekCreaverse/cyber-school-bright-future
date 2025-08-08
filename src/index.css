@@ -4,62 +4,62 @@
 
 @layer base {
   :root {
-    /* Light, clean background */
-    --background: 248 250 252;
-    --foreground: 30 41 59;
+    /* Warm Professional Theme - Notion-inspired */
+    --background: 44 14% 99%;
+    --foreground: 24 6% 22%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+    --card: 44 14% 99%;
+    --card-foreground: 24 6% 22%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
+    --popover: 44 14% 99%;
+    --popover-foreground: 24 6% 22%;
 
-    /* Primary - Electric Cyan */
-    --primary: 191 94% 42%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 191 94% 65%;
+    /* Primary - Warm Dark */
+    --primary: 24 6% 22%;
+    --primary-foreground: 44 14% 99%;
+    --primary-glow: 24 6% 35%;
 
-    /* Secondary - Neon Blue */
-    --secondary: 212 87% 54%;
-    --secondary-foreground: 0 0% 100%;
+    /* Secondary - Dark Teal */
+    --secondary: 175 87% 27%;
+    --secondary-foreground: 44 14% 99%;
 
-    /* Accent - Vibrant Purple */
-    --accent: 262 74% 62%;
-    --accent-foreground: 0 0% 100%;
+    /* Accent - Coral */
+    --accent: 358 100% 70%;
+    --accent-foreground: 44 14% 99%;
 
-    /* Tech Navy - Lighter for backgrounds */
-    --tech-navy: 240 30% 15%;
-    --tech-navy-light: 240 25% 25%;
+    /* Warm Gray tones */
+    --warm-gray: 40 17% 91%;
+    --warm-gray-dark: 24 6% 55%;
 
-    /* Neural Gray - Lighter, more accessible */
-    --neural-gray: 220 9% 46%;
-    --neural-light: 220 13% 95%;
+    /* Additional warm colors */
+    --neural-gray: 24 6% 55%;
+    --neural-light: 40 17% 95%;
 
-    /* Quantum Orange - Energy accent */
-    --quantum-orange: 31 81% 56%;
-    --quantum-orange-light: 31 81% 75%;
+    /* Soft accent variant */
+    --quantum-orange: 358 100% 70%;
+    --quantum-orange-light: 358 100% 85%;
 
-    --muted: 210 20% 94%;
-    --muted-foreground: 220 9% 46%;
+    --muted: 40 17% 91%;
+    --muted-foreground: 24 6% 55%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 44 14% 99%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 191 94% 42%;
+    --border: 40 17% 91%;
+    --input: 40 17% 91%;
+    --ring: 24 6% 22%;
 
     --radius: 0.75rem;
 
-    /* Gradients */
-    --gradient-cyber: linear-gradient(135deg, hsl(191 94% 42%), hsl(262 74% 62%));
-    --gradient-neural: linear-gradient(135deg, hsl(240 100% 3%), hsl(240 43% 11%));
-    --gradient-quantum: linear-gradient(135deg, hsl(212 87% 54%), hsl(31 81% 56%));
+    /* Warm gradients */
+    --gradient-cyber: linear-gradient(135deg, hsl(24 6% 22%), hsl(175 87% 27%));
+    --gradient-neural: linear-gradient(135deg, hsl(44 14% 99%), hsl(40 17% 91%));
+    --gradient-quantum: linear-gradient(135deg, hsl(175 87% 27%), hsl(358 100% 70%));
 
-    /* Shadows and Effects */
-    --shadow-cyber: 0 25px 50px -12px hsl(191 94% 42% / 0.25);
-    --shadow-purple: 0 25px 50px -12px hsl(262 74% 62% / 0.25);
-    --glow-cyber: 0 0 50px hsl(191 94% 42% / 0.3);
+    /* Soft shadows */
+    --shadow-cyber: 0 25px 50px -12px hsl(24 6% 22% / 0.15);
+    --shadow-purple: 0 25px 50px -12px hsl(358 100% 70% / 0.2);
+    --glow-cyber: 0 0 50px hsl(175 87% 27% / 0.2);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -72,55 +72,55 @@
   }
 
   .dark {
-    /* Tech Innovation Color Palette - Dark Mode */
-    --background: 240 100% 3%;
-    --foreground: 0 0% 98%;
+    /* Warm Professional Theme - Dark Mode */
+    --background: 24 6% 12%;
+    --foreground: 44 14% 95%;
 
-    --card: 240 43% 11%;
-    --card-foreground: 0 0% 98%;
+    --card: 24 6% 15%;
+    --card-foreground: 44 14% 95%;
 
-    --popover: 240 43% 11%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 24 6% 15%;
+    --popover-foreground: 44 14% 95%;
 
     /* Enhanced contrast for dark mode */
-    --primary: 191 94% 55%;
-    --primary-foreground: 240 100% 3%;
-    --primary-glow: 191 94% 75%;
+    --primary: 44 14% 95%;
+    --primary-foreground: 24 6% 12%;
+    --primary-glow: 44 14% 85%;
 
-    --secondary: 212 87% 64%;
-    --secondary-foreground: 240 100% 3%;
+    --secondary: 175 87% 35%;
+    --secondary-foreground: 44 14% 95%;
 
-    --accent: 262 74% 72%;
-    --accent-foreground: 240 100% 3%;
+    --accent: 358 100% 75%;
+    --accent-foreground: 24 6% 12%;
 
-    --tech-navy: 240 100% 3%;
-    --tech-navy-light: 240 43% 15%;
+    --warm-gray: 24 6% 20%;
+    --warm-gray-dark: 44 14% 65%;
 
-    --neural-gray: 220 9% 65%;
-    --neural-light: 240 10% 15%;
+    --neural-gray: 44 14% 65%;
+    --neural-light: 24 6% 20%;
 
-    --quantum-orange: 31 81% 66%;
-    --quantum-orange-light: 31 81% 85%;
+    --quantum-orange: 358 100% 75%;
+    --quantum-orange-light: 358 100% 85%;
 
-    --muted: 240 10% 15%;
-    --muted-foreground: 220 9% 65%;
+    --muted: 24 6% 20%;
+    --muted-foreground: 44 14% 65%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 44 14% 95%;
 
-    --border: 240 10% 15%;
-    --input: 240 10% 15%;
-    --ring: 191 94% 55%;
+    --border: 24 6% 20%;
+    --input: 24 6% 20%;
+    --ring: 44 14% 95%;
 
     /* Enhanced dark mode gradients */
-    --gradient-cyber: linear-gradient(135deg, hsl(191 94% 55%), hsl(262 74% 72%));
-    --gradient-neural: linear-gradient(135deg, hsl(240 100% 3%), hsl(240 43% 15%));
-    --gradient-quantum: linear-gradient(135deg, hsl(212 87% 64%), hsl(31 81% 66%));
+    --gradient-cyber: linear-gradient(135deg, hsl(44 14% 95%), hsl(175 87% 35%));
+    --gradient-neural: linear-gradient(135deg, hsl(24 6% 12%), hsl(24 6% 20%));
+    --gradient-quantum: linear-gradient(135deg, hsl(175 87% 35%), hsl(358 100% 75%));
 
     /* Enhanced dark mode shadows */
-    --shadow-cyber: 0 25px 50px -12px hsl(191 94% 55% / 0.35);
-    --shadow-purple: 0 25px 50px -12px hsl(262 74% 72% / 0.35);
-    --glow-cyber: 0 0 60px hsl(191 94% 55% / 0.4);
+    --shadow-cyber: 0 25px 50px -12px hsl(44 14% 95% / 0.2);
+    --shadow-purple: 0 25px 50px -12px hsl(358 100% 75% / 0.25);
+    --glow-cyber: 0 0 60px hsl(175 87% 35% / 0.3);
 
     --sidebar-background: 240 43% 11%;
     --sidebar-foreground: 0 0% 98%;
